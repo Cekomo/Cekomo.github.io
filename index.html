@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cemil's Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- <link rel="icon" class="fas fa-otter"> -->
+</head>
+
+<body class="body">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light rounded">
+        <a class="navbar-brand" id="portfolioTitle" href="#">Cemil's Portfolio</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#top" onclick="document.querySelector('.navbar-collapse').classList.remove('show')">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#developed-games" onclick="document.querySelector('.navbar-collapse').classList.remove('show')">My Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#participated-events" onclick="document.querySelector('.navbar-collapse').classList.remove('show')">Participated Events</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bottom" onclick="document.querySelector('.navbar-collapse').classList.remove('show')">Contact</a>
+            </li>
+          </ul>
+        </div>
+          <!-- <div class="navbar-nav navbar-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/cemil-şahin-786b89208/" target="_blank">
+                <i class="fab fa-linkedin linkedin-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Cekomo" target="_blank">
+                <i class="fab fa-github github-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Cekomo/My-Portfolio/blob/main/CV_Cemil_Sahin.pdf" target="_blank" onclick="window.open('CV_Cemil_Sahin.pdf', '_blank');">
+                <i class="fas fa-file-pdf fa-file-pdf"></i>
+              </a>
+            </li>
+          </div> -->
+      </nav>
+    </header>
+    <div class="about-me-section p-5 bg-secondary bg-dark rounded"> <!-- id="about-me" no need for variable -->
+        <h5 id="about-me-header">
+          <b>Hello. I am Cemil Sahin, gradute Electrical & Electronics Engineer</b> 
+        </h5>
+        <p class="about-me-text">I am working on Unity for a year and passionate about developing mobile games to improve myself and enjoy. 
+          Throughout my Electrical & Electronics engineering education, I took crucial courses on computer science such as OOP and Data 
+          Structures & Algorithms. I improved myself not only on game development but also the engineering perspective of programming by 
+          considering efficiency and readability of the code.
+        </p>
+    </div>
+
+    <ul id="developed-games"></ul>
+    <ul class="spacer-bot-v2"></ul>
+    <h1 id="main-header" class="p-2 bg-light text-dark rounded">Games I Developed</h1>
+    <ul class="spacer-bot"></ul>
+    
+    <ul id="game-header" class="nav-link">
+      <h4>Rolling Maze | Unity3D / C# / Blender (Mobile)
+        <a href="https://github.com/Cekomo/Rollin-Maze" target="_blank">
+          <i class="fab fa-github github-icon github-icon-game"></i>
+        </a>
+      </h4>
+    </ul>
+    <div class="video-container">
+      <iframe class="video-border" width="560" height="315" src="https://www.youtube.com/embed/Bw99GiqQ45E" frameborder="0" allow="accelerometer; autoplay; 
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="container-text">
+      <div class="row align-items-start">
+        
+          <div class="text-container-1">
+            <p>
+              <h5 class="text-header">About the Game</h5>
+              This labyrinth project is the first game I made. Try to escape from a circular labyrinth by swiping up, right and left. The objective is finishing the maze without touching any wall. The game includes five levels each having unique map.
+            </p>
+          
+        </div>
+        
+          <div class="text-container-2">
+            <p>
+              <h5 class="text-header">What I learned?</h5>
+              <li class="list-group-item">• Unity3D environment fundamentals</li>
+              <li class="list-group-item">• Controllers on mobile as touch, swipe operations etc.</li>
+              <li class="list-group-item">• GameObject components like Rigidbody, collider, Mesh Renderer etc.</li>
+              <li class="list-group-item">• UI Components like Canvas, Panel, Buttons etc.</li>
+              <li class="list-group-item">• Scene Management for different levels</li>
+              <li class="list-group-item">• Mobile integration of the game like anchoring etc.</li>
+              <li class="list-group-item">• 3D Modeling on Blender</li>
+            </p>
+        
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <ul id="game-header" class="nav-link">
+        <h4>Lanternity | Unity2D / C# / Aseprite (Windows)
+          <a href="https://github.com/Cekomo/Lanternity" target="_blank">
+            <i class="fab fa-github github-icon github-icon-game"></i>
+          </a>
+        </h4>
+      </ul>
+      <div class="video-container">
+        <iframe class="video-border" width="560" height="315" src="https://www.youtube.com/embed/T9eymptrICs" frameborder="0" allow="accelerometer; autoplay; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="container-text">
+        <div class="row align-items-start">
+            <div class="text-container-1">
+              <p>
+                <h5 class="text-header">About the Game</h5>
+                Scan to reveal the spirits and collect them by using light beam of the lantern. Each spirit enhances lantern and give it new abilities! I have learned animator, light system (URP) and tile map throughout the project. This is an ongoing game project.
+              </p>
+            </div>
+            <div class="text-container-2">
+              <p>
+                <h5 class="text-header">What I learned?</h5>
+                <li class="list-group-item">• Animations, animation controllers, state machines etc.</li>
+                <li class="list-group-item">• Unity light management system (URP)</li>
+                <li class="list-group-item">• Tilemaps, tile palettes etc.</li>
+                <li class="list-group-item">• Unity concepts like raycasting, TextMeshPro, scriptable objects etc.</li>
+                <li class="list-group-item">• Sprite & animation design on Aseprite</li>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+      <ul id="game-header" class="nav-link">
+        <h4>Slord | Unity2D / C# (Mobile)
+          <a href="https://github.com/Cekomo/Slord" target="_blank">
+            <i class="fab fa-github github-icon github-icon-game"></i>
+          </a>
+        </h4>
+      </ul>
+      <div class="video-container">
+        <iframe class="video-border" width="560" height="315" src="https://www.youtube.com/embed/Wdv6KvNF0PU" frameborder="0" allow="accelerometer; autoplay; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="container-text prevent-container-margin">
+        <div class="row align-items-start">
+            <div class="text-container-1">
+              <p>
+                <h5 class="text-header">About the Game</h5>
+                Match the shown word by moving the letters on x-axis and y-axis. Try not to take hints or move the letters too much to gain more points. It includes 56 different levels. I have implemented intensive for loop algorithms and math functions to relocate game objects.
+              </p>
+            </div>
+            <div class="text-container-2">
+              <p>
+                <h5 class="text-header">What I learned?</h5>
+                <li class="list-group-item">• Unity2D environment fundementals</li>
+                <li class="list-group-item">• Deeper understanding on arrays</li>
+                <li class="list-group-item">• Intensive for loop algorithms to control letters</li>
+                <li class="list-group-item">• Game development only using UI system of Unity</li> 
+              </p>
+          </div>
+        </div>
+      </div>
+    
+    <ul id="participated-events"></ul>
+    <ul class="spacer-bot-v2"></ul>
+    <h1 id="main-header" class="p-2 bg-light text-dark rounded">Events I Participated</h1>
+    <ul class="spacer-bot"></ul>
+
+    <ul id="game-header">
+      <h4>Unithon (Toon Blast) by Peak Games | C# (Mobile)</h4>
+    </ul>
+    <div class="video-container">
+      <iframe class="video-border " width="560" height="315" src="https://www.youtube.com/embed/IFxOXTMwo4w" frameborder="0" allow="accelerometer; autoplay; 
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="container-text">
+      <div class="row align-items-start">
+          <div class="text-container-1">
+            <p>
+              <h5 class="text-header">About the Event</h5>
+              We are given cube blasting mechanics of the game and asked to implement objects like crates, bombs, rockets and baloons by programming their properties. As a group of four members, we developed all the properties wanted from us successfully within 20 hours. We programmed all the functionalities by considering readability and efficiency of the code which is the main objective of the event. In this event, we focused on C# did not touch Unity side of the project. <br>
+              Most importantly, the event gave me a vision to program a game to not only achieve to run it but also program it with efficient and readable way. Besides, I have examine the code structure that is written one of the best engineers in the sector and learn the details of the code from them.
+            </p>
+          </div>
+          <div class="text-container-2">
+            <p>
+              <h5 class="text-header">What I learned?</h5>
+              <li class="list-group-item">• Teamwork (game development within a team)</li>
+              <li class="list-group-item">• Working in a codition with limited time</li>
+              <li class="list-group-item">• Presenting the game we developed to engineering team</li>
+              <li class="list-group-item">• Vision of other developers/engineers and their passions about the sector</li>
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="shadow-lg p-2 bg-body-tertiary bg-light text-dark rounded" id="bottom">
+      <h3 id="contact-info">Contact</h3>
+      <div id="contact-info"><b>Phone:</b> +90 (532) 478 77 42</div>
+      <div id="contact-info"><b>E-mail:</b> cemilsahin.dev@gmail.com</div>
+      
+      <div class="navbar-nav">
+        <div class="row align-items-start">
+          <div class="col-5" id="contact-info">
+            <li class="nav-item align-ending">
+              <a class="nav-link" href="https://www.linkedin.com/in/cemil-şahin-786b89208/" target="_blank">
+                <i class="fab fa-linkedin linkedin-icon"></i>
+              </a>
+            </li>
+          </div>
+          <div class="col-2" id="contact-info">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Cekomo" target="_blank">
+                <i class="fab fa-github github-icon"></i>
+              </a>
+            </li>
+          </div>
+          <div class="col-5" id="contact-info">
+            <li class="nav-item align-beginning">
+              <a class="nav-link" href="https://github.com/Cekomo/My-Portfolio/blob/main/CV_Cemil_Sahin.pdf" target="_blank" onclick="window.open('CV_Cemil_Sahin.pdf', '_blank');">
+                <i class="fas fa-file-pdf fa-file-pdf"></i>
+              </a>
+            </li>
+          </div>  
+        </div>
+      </div>
+    </div>
+</body>
+</html>

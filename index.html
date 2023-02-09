@@ -10,9 +10,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    
-    <meta property="og:title" content="Cemil's Portfolio" />
-    <meta property="og:image" content="https://i.ibb.co/jrZrz1B/page-img.jpg" />
+
+    <!-- <link rel="icon" class="fas fa-otter"> -->
 </head>
 
 <body class="body">
@@ -38,11 +37,28 @@
             </li>
           </ul>
         </div>
+          <!-- <div class="navbar-nav navbar-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/cemil-şahin-786b89208/" target="_blank">
+                <i class="fab fa-linkedin linkedin-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Cekomo" target="_blank">
+                <i class="fab fa-github github-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Cekomo/My-Portfolio/blob/main/CV_Cemil_Sahin.pdf" target="_blank" onclick="window.open('CV_Cemil_Sahin.pdf', '_blank');">
+                <i class="fas fa-file-pdf fa-file-pdf"></i>
+              </a>
+            </li>
+          </div> -->
       </nav>
     </header>
     <div class="about-me-section p-5 bg-secondary bg-dark rounded"> <!-- id="about-me" no need for variable -->
         <h5 id="about-me-header">
-          <b>Hello. I am Cemil Sahin, junior Electrical & Electronics Engineer</b> 
+          <b>Hello. I am Cemil Sahin, Junior Electrical & Electronics Engineer</b> 
         </h5>
         <p class="about-me-text">I am working on Unity for a year and passionate about developing mobile games to improve myself and enjoy. 
           Throughout my Electrical & Electronics engineering education, I took crucial courses on computer science such as OOP and Data 
@@ -89,6 +105,7 @@
               <li class="list-group-item">• Mobile integration of the game like anchoring etc.</li>
               <li class="list-group-item">• 3D Modeling on Blender</li>
             </p>
+        
         </div>
       </div>
     </div>
@@ -167,10 +184,8 @@
     <ul id="game-header">
       <h4>Unithon by Peak Games | C# (Mobile)</h4>
     </ul>
-    <div class="video-container">
-      <!-- <iframe class="video-border " width="560" height="315" src="https://www.youtube.com/embed/IFxOXTMwo4w" frameborder="0" allow="accelerometer; autoplay; 
-      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-      <iframe class="video-border" id="peakimg"  frameborder="0" src="img/unithon_img.jpg"></iframe>
+    <div class="">
+      <div id="peakimgDiv"><img src="img/unithon_img.jpg" alt=""></div>
     </div>
     <div class="container-text">
       <div class="row align-items-start">
@@ -200,23 +215,23 @@
       
       <div class="navbar-nav">
         <div class="row align-items-start">
-          <div class="col-5 contact-info-icon" id="contact-info">
+          <div class="col-5" id="contact-info">
             <li class="nav-item align-ending">
               <a class="nav-link" href="https://www.linkedin.com/in/cemil-şahin-786b89208/" target="_blank">
                 <i class="fab fa-linkedin linkedin-icon"></i>
               </a>
             </li>
           </div>
-          <div class="col-2 contact-info-icon" id="contact-info">
+          <div class="col-2" id="contact-info">
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/Cekomo" target="_blank">
                 <i class="fab fa-github github-icon"></i>
               </a>
             </li>
           </div>
-          <div class="col-5 contact-info-icon" id="contact-info">
+          <div class="col-5" id="contact-info">
             <li class="nav-item align-beginning">
-              <a class="nav-link" href="https://github.com/Cekomo/Cekomo.github.io/blob/main/CV_Cemil_Sahin_public.pdf" target="_blank" onclick="window.open('CV_Cemil_Sahin_public.pdf', '_blank');">
+              <a class="nav-link" href="https://github.com/Cekomo/My-Portfolio/blob/main/CV_Cemil_Sahin_public.pdf" target="_blank" onclick="window.open('CV_Cemil_Sahin_public.pdf', '_blank');">
                 <i class="fas fa-file-pdf fa-file-pdf"></i>
               </a>
             </li>
@@ -225,5 +240,6 @@
         <div class="design-note" style="text-shadow: 2px 1px 1px gray;"><font size="2">Designed by Cemil Şahin (me) using Bootstrap, contributed by Denizhan Alataş.</font></div>
       </div>
     </div>
+
 </body>
 </html>

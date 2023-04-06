@@ -39,6 +39,18 @@ body
   color: #fff !important;
 }
 
+.itch-io-icon {
+  font-size: 2.5rem;
+  border-radius: 50%;
+  transition: color 0.3s ease;
+  vertical-align: sub;
+  margin-left: 1%;
+}
+
+.itch-io-icon:hover {
+  color: #fff !important;
+}
+
 .fa-file-pdf:hover
 {
   color: #a40404;

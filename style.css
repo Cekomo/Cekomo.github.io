@@ -185,17 +185,10 @@ body
   text-align: start;
 }
 
-/* .video-border
-{
-  width: 100vw;
-  height: 100vh;
-} */
-
 #peakimgDiv
 {
-  width: 89vw;
+  padding-left: 5%;
   border-radius: 10px;
-  border: 3px #adb5bd solid;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px; 
@@ -203,9 +196,13 @@ body
 
 img
 {
-  width: 100%;
+  width: 52.6%;
   height: 100%;
+  border: 3px #adb5bd solid;
   border-radius: 10px;
+
+  min-width: 360px;
+  min-height: 240px;
 }
 
 .design-note

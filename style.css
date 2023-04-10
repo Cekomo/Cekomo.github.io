@@ -131,8 +131,8 @@ body
   display: inline-block;
   padding-left: 5%;
 
-  min-width: 342px;
-  min-height: 228px;
+  /* min-width: 342px;
+  min-height: 228px; */
 }
 
 .video-container iframe
@@ -201,8 +201,8 @@ img
   border: 3px #adb5bd solid;
   border-radius: 10px;
 
-  min-width: 342px;
-  min-height: 228px;
+  /* min-width: 342px;
+  min-height: 228px; */
 }
 
 .design-note

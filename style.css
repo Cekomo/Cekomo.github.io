@@ -51,6 +51,18 @@ body
   color: #fff;
 }
 
+.google-play-icon {
+  font-size: 2.3rem;
+  border-radius: 50%;
+  transition: color 0.3s ease;
+  vertical-align: sub;
+  margin-left: 1%;
+}
+
+.google-play-icon:hover {
+  color: #fff;
+}
+
 .fa-file-pdf:hover
 {
   color: #a40404;

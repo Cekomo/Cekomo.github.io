@@ -221,3 +221,84 @@ img
 {
   text-align: center;
 }
+
+/* ----------------------- Quiz page style ----------------------- */
+
+/* Add space between header and block */
+.spacer {
+  height: 75px;
+}
+
+/* Style the quiz block */
+.quiz-block {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #b0b4bc; /* Gray background */
+  border: 3px solid #d4d4d4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the text inside the quiz block */
+.question-container h2 {
+  width: 455px;
+  height: 125px;
+  font-size: 18px;
+  padding: 10px; 
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #282424; 
+  border-radius: 10px; 
+  margin: 0 auto;
+  color: #453332; 
+}
+
+/* Style the answer option buttons (50x50) */
+.options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  padding-left: 25px;
+  /* padding-top: 20px; */
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 50px;
+  background-color: #b0b4bc; 
+  color: #000; 
+  margin: 5px 0;
+}
+
+.option-button {
+  width: 50px;
+  height: 50px;
+  background-color: #0077b5; /* Gray background for the buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option-button:hover {
+  background-color: #005685; /* Change to a darker shade or another color */
+}
+
+.option-button:active {
+  background-color: #002438; /* Change to a darker shade or another color */
+}
+
+.option-text {
+  width: 250px;
+  height: 50px;
+  font-size: 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+  color: #453332;
+  border-bottom: 2px solid #282424;
+}

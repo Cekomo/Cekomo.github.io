@@ -12,6 +12,7 @@ class QuestionController(QuizInterface):
         self.answers = []
 
     def get_questions(self, the_quiz):
+        
         return super().get_questions(the_quiz)
 
     def prepare_question_parameters(self, questions): 

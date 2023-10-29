@@ -13,6 +13,7 @@ class QuizResultController(QuizInterface):
         self.solved_quizes = []
         
     def get_quiz_stats(self, the_quiz):
+        
         return super().get_quiz_stats(the_quiz)
     
     def set_quiz_stats(self, given_answers):

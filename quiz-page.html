@@ -29,33 +29,52 @@
     </header>
   
     <div class="spacer"></div> <!-- Add space between header and block -->
-   
+
     <div class="quiz-block">
         <div class="question-container">
-            <h2>What computer component became an inspiration for Daft Punk's album name?</h2>
+            <h2 id="question"></h2>
         </div>
         <div class="options">
             <div class="option">
                 <button class="option-button"> <i class="fa-solid fa-caret-right fa-3x"></i> </button>
-                <p class="option-text">CPU</p>
+                <p class="option-text"></p>
             </div>
             <div class="option">
                 <button class="option-button"> <i class="fa-solid fa-caret-right fa-3x"></i> </button>
-                <p class="option-text">RAM</p>
+                <p class="option-text"></p>
             </div>
             <div class="option">
                 <button class="option-button"> <i class="fa-solid fa-caret-right fa-3x"></i> </button>
-                <p class="option-text">Motherboard</p>
+                <p class="option-text"></p>
             </div>
             <div class="option">
                 <button class="option-button"> <i class="fa-solid fa-caret-right fa-3x"></i> </button>
-                <p class="option-text">Solid State Drive</p>
+                <p class="option-text"></p>
             </div>
             <div class="option">
                 <button class="option-button"> <i class="fa-solid fa-caret-right fa-3x"></i> </button>
-                <p class="option-text">Leave the quiz</p>
+                <p class="option-text"></p>
             </div>
         </div>
     </div>
+   
+    <script>
+        // Replace the placeholders with dynamic content
+        document.getElementById("question").textContent = "What computer component became an inspiration for Daft Punk's album name?";
+        // document.getElementById("option1").textContent = "CPU";
+        // document.getElementById("option2").textContent = "RAM";
+        // document.getElementById("option3").textContent = "Motherboard";
+        // document.getElementById("option4").textContent = "Solid State Drive";
+        // document.getElementById("option4").textContent = "Leave the quiz";
+
+        const optionElements = document.querySelectorAll(".option-text");
+        const optionTexts = ["CPU", "RAM", "Motherboard", "Solid State Drive", "Leave the quiz"];
+
+        optionElements.forEach(function(optionElement, index) {
+            optionElement.textContent = optionTexts[index];
+        });
+    </script>
+    
+
 </body>
 </html>
